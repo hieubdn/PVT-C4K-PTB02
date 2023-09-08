@@ -25,3 +25,49 @@ if n < 0:
     print(b,"là giá trị tuyệt đối của", n)
 else:
     print(n, "là giá trị tuyệt đối của", n)
+
+
+# Xây dựng ứng dụng Math quiz
+print("Cùng bạn làm toán")
+print("------------------")
+
+# Define the questions and answers as variables
+question1 = "Câu 1. 2 luỹ thừa 4 bằng mấy?"
+answer1 = 16
+
+question2 = "Câu 2. Căn bậc 3 của 64 là?"
+answer2 = 4
+
+question3 = "Câu 3. 78 có chia hết cho 3 không? Bấm Y nếu là Có hoặc N nếu là Không:"
+answer3 = "Y"
+
+# Keep track of the score
+score = 0
+
+# Ask the user each question and check the answer
+print(question1)
+user_answer = int(input("Đáp án: "))
+if user_answer == answer1:
+    print("Chính xác!")
+    score += 1
+else:
+    print("Chưa chính xác!")
+
+print(question2)
+user_answer = int(input("Đáp án: "))
+if user_answer == answer2:
+    print("Chính xác!")
+    score += 1
+else:
+    print("Chưa chính xác!")
+
+print(question3)
+user_answer = input("Đáp án: ")
+if user_answer == answer3:
+    print("Chính xác!")
+    score += 1
+else:
+    print("Chưa chính xác!")
+
+# Print the final score
+print("Điểm của bạn là:", score, "trên 3")
