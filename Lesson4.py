@@ -71,3 +71,25 @@ else:
 
 # Print the final score
 print("Điểm của bạn là:", score, "trên 3")
+
+
+# bài tập về nhà 
+# Câu 9
+a = int(input("Nhập số kẹo: "))
+b = int(input("Nhập số em bé: "))
+if a % b == 0:
+    print("Có")
+else:
+    print("Không")
+
+# Câu 10
+An = float(input("Nhập chiều cao của An: "))
+Minh = float(input("Nhập chiều cao của Minh: "))
+Lan = float(input("Nhập chiều cao của Lan: "))
+
+if An >= Minh and An >= Lan:
+    print("Người cao nhất là An")
+elif Minh >= An and Minh >= Lan:
+    print("Người cao nhất là MInh")
+else: Lan >= Minh and Lan >= An
+print ("Người cao nhất là Lan")
