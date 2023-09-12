@@ -1,15 +1,15 @@
 # *****Xếp Hạng học sinh*****
-# diem = float(input("Nhập số điểm của học sinh: "))
-# if diem >= 8:
-#     print("Học sinh đạt học sinh Giỏi")
-# elif diem >=6.5:
-#     print("Học sinh đạt học sinh Khá")
-# elif diem >= 5:
-#     print("Học sinh đạt học sinh Trung Bình")
-# else: 
-#     print("Học sinh Yếu")
+diem = float(input("Nhập số điểm của học sinh: "))
+if diem >= 8:
+    print("Học sinh đạt học sinh Giỏi")
+elif diem >=6.5:
+    print("Học sinh đạt học sinh Khá")
+elif diem >= 5:
+    print("Học sinh đạt học sinh Trung Bình")
+else: 
+    print("Học sinh Yếu")
 
-# *****Bài Kiểm Tra*****
+# *****Bài Kiểm Tra LESSSON 5*****
 # ****Câu 1****
 loaiGiay = int(input("Nhập ký hiệu loại giấy: "))
 soTrang = int(input("Số trang giấy cần in: "))
