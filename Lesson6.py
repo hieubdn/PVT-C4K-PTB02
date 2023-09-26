@@ -13,7 +13,6 @@ for i in range (n+1):
 		print("Xin chào, tôi là MindX")
 # Trả lời: in ra 5 lần
 # **********************------***************************
-
 # Xuất ra màng hình dãy số thứ tự 1 -> 9
 for i in range (10):
     print(i)
