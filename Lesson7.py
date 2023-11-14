@@ -1,28 +1,29 @@
 # ***---Bài tập về nhà---***
 # Câu 9
-n = int(input("Nhập số n: "))
-sum = 0
-for i in range(1, n+1):
-    if i % 2 == 0:
-        sum = sum + i
-print('Tổng số lẻ là: ',sum)
+def sum():
+    n = int(input("Nhập số n: "))
+    sum = 0
+    for i in range(1, n+1):
+        if i % 2 == 0:
+            sum = sum + i
+        print('Tổng số lẻ là: ',sum)
 # Câu 10
-a = int(input("Nhập số nguyên dương a: "))
-for i in range(1, a+1):
-    if i % 2 == 0:
-        i = i
-        print(i)
+# a = int(input("Nhập số nguyên dương a: "))
+# for i in range(1, a+1):
+#     if i % 2 == 0:
+#         i = i
+#         print(i)
 
 # @@@--LESSON 7---@@@
 # ----Bài 1----
-n = int(input("Nhập số n: "))
-while n < 100:
-    if n < 0:
-        print("Vui lòng nhập số nguyên dương")
-        break
-    if n > 0:
-        n = n + 1
-        print(n)
+# n = int(input("Nhập số n: "))
+# while n < 100:
+#     if n < 0:
+#         print("Vui lòng nhập số nguyên dương")
+#         break
+#     if n > 0:
+#         n = n + 1
+#         print(n)
 # ----Bài 2----
 import random  #nhận biến random tư ngoài vào
 
